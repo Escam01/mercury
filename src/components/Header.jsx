@@ -13,7 +13,7 @@ export default function Header(){
             <ul className="gap-12 flex justify-center m-8">
               <div className="justify-start">
                 <Link to={"/"}>
-                  <img src="/logo.png" width={50} height={50} alt="logo" />
+                  <img src="./logo.png" width={50} height={50} alt="logo" />
                 </Link>
               </div>
               <li>
@@ -28,7 +28,7 @@ export default function Header(){
             </ul>
             <Link to="/basket" className="flex justify-end">
               <img
-                src="/basket.png"
+                src="./basket.png"
                 width={35}
                 height={35}
                 alt="Корзина"

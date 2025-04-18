@@ -14,7 +14,7 @@ export default function Katalog() {
             key={card.key}
             title={card.name}
             alt = {card.name}
-            src={card.img}
+            src={`${import.meta.env.BASE_URL}public/${card.img}`} //
             description={card.price}
           />
         ))}

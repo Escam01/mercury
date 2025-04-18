@@ -4,7 +4,6 @@ import Meta from "antd/es/card/Meta";
 
 
 export default function ShortDisplayCard (props) {
-    console.log(props);
     return (
       <Card
         hoverable

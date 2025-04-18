@@ -1,4 +1,4 @@
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
 import Katalog from "./pages/Catalog";
@@ -10,35 +10,6 @@ import MainPage from "./pages/MainPage";
 export default function App() {
   return (
     <>
-      {/* <header>
-        <div className=" flex justify-center items-center gap-8 text-white  mx-32">
-          <ul className="gap-12 flex justify-center m-8">
-            <div className="justify-start">
-              <Link to={"/"}>
-                <img src="/logo.png" width={50} height={50} alt="logo" />
-              </Link>
-            </div>
-            <li>
-              <Link to="/katalog">Каталог</Link>
-            </li>
-            <li>
-              <Link to="/about">О нас</Link>
-            </li>
-            <li>
-              <Link to="/support">Тех.поддержка</Link>
-            </li>
-          </ul>
-          <Link to="/basket" className="flex justify-end">
-            <img
-              src="/basket.png"
-              width={35}
-              height={35}
-              alt="Корзина"
-              className=""
-            />
-          </Link>
-        </div>
-      </header> */}
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/katalog" element={<Katalog />} />
