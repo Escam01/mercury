@@ -1,20 +1,20 @@
 export const arrayCards = [
   {
     key: "1",
-    name: "Рубашка с принтом членов",
+    name: "Рубашка белая",
     price: 'Цена: 1200$',
-    img: "/modelBackground.jpg",
+    img: "./modelBackground.jpg",
   },
   {
     key: "1",
-    name: "Рубашка с принтом членов 2",
+    name: "Рубашка черная",
     price: 'Цена: 200$',
-    img: "/logo.png",
+    img: "./logo.png",
   },
   {
     key: "1",
-    name: "Рубашка с принтом членов 2",
+    name: "Рубашка с принтом 2",
     price: 'Цена: 200$',
-    img: "/logo.png",
+    img: "./logo.png",
   },
 ];
